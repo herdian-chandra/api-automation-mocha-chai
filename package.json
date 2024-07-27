@@ -1,0 +1,27 @@
+{
+  "name": "api-automation-mocha-chai",
+  "version": "1.0.0",
+  "description": "API Automation using Mocha and Chai",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "auth-test": "mocha ./tests/scenario/auth_create_token.test.js --timeout 10000"
+  },
+  "keywords": [
+    "API",
+    "Automation",
+    "Mocha",
+    "Chai"
+  ],
+  "author": "Herdian Chandra",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.2",
+    "chai": "^5.1.1",
+    "chai-json-schema": "^1.5.1",
+    "dotenv": "^16.4.5",
+    "mocha": "^10.7.0",
+    "mochawesome": "^7.1.3"
+  },
+  "type": "module"
+}
