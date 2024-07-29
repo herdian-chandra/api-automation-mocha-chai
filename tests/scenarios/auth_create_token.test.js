@@ -2,7 +2,7 @@ import restfulBookerApi from "../pages/restful_booker.api.js";
 import * as data from "../data/auth.data.js";
 import { expect } from "chai";
 
-describe("Authorization, Create Token", () => {
+describe("As a user, i want to test Authorization Create Token API", () => {
   it("Ensure api Create Token successfully send the request", async () => {
     const response = await restfulBookerApi.authCreateToken(data.validPayload);
 

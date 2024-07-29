@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "auth-test": "mocha ./tests/scenarios/auth_create_token.test.js --timeout 10000 --reporter-options reportDir=reports"
+    "auth-test": "mocha ./tests/scenarios/auth_create_token.test.js --timeout 10000 --reporter-options reportDir=reports",
+    "booking-test": "mocha ./tests/scenarios/create_booking.test.js --timeout 10000 --reporter-options reportDir=reports"
   },
   "keywords": [
     "API",
