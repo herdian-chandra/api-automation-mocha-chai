@@ -1,4 +1,3 @@
-import axios from "axios";
 import restfulBookerApi from "../pages/restful_booker.api.js";
 import { expect } from "chai";
 
